@@ -1,0 +1,101 @@
+.head{
+    padding: 40px 0 10px 10px;
+    margin: 0;
+}
+.heading1{
+    padding: 0px 0 0px 40px;
+}
+
+.blue{
+    border: 2px solid rgb(115, 115, 117);
+    padding: 10px;
+    background-color: white;  
+}
+
+.box2{
+    overflow: auto;
+    padding: 20px;
+    /* height: 80vh; */
+}
+
+
+.sections{
+    height: 250px;
+    border: 1px solid rgb(134, 124, 124);
+    margin: 0 auto 10px auto;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.sections::-webkit-scrollbar{
+    width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+.sections::-webkit-scrollbar-thumb{
+    background: #242225;
+  }
+.sections-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a75dec;
+    color: white;
+    position: sticky !important;
+    width: auto;
+   
+}
+
+.sections hr{
+    margin: 0px 0 10px 0;
+    
+}
+.text{
+    text-align: center;
+}
+.edit{
+    /* width: 60px; */
+    float: right;
+    margin: 10px;
+    border-radius: 40%;
+    font-size: 15px;
+    height: 30px;
+    top: 2px !important;
+    background-color: white;
+    color: rgb(136, 130, 130);
+    border-color: rgb(139, 132, 132);   
+}
+.heading2{
+    padding: 20px 10px 10px 10px;
+    font-size: 25px;
+
+}
+.mentors{
+    margin-right: 0;
+    height: 350px !important;
+}
+.myCardImg{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    background-color: wheat;
+    margin: 10px;
+}
+.mentor-div{
+    display: flex;
+    /* justify-content: center ; */
+    align-items: center;
+    border: 1px solid rgb(143, 134, 134);
+    margin-bottom: 10px;
+    /* margin: 10px; */
+}
+.mentor-div div{
+    margin-top: 10px;
+   
+    float: left !important;
+    text-align: left !important;
+    /* display: flex;
+    align-items: center;
+    justify-content: center ; */
+    flex-direction: column;
+}
